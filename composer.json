@@ -1,0 +1,17 @@
+{
+  "name": "soc_network.outus/front",
+  "description": "Example social network for Outus",
+  "type": "project",
+  "license": "proprietary",
+  "require": {
+    "robmorgan/phinx": "^0.10.6",
+    "symfony/var-dumper": ">=3.3 <4.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Frontend\\": "public/app/"
+    }
+  },
+  "repositories": [
+  ]
+}

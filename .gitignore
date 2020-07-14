@@ -1,0 +1,15 @@
+*.swp
+.idea/
+
+#composer pack
+/vendor/
+
+#composer lock
+/composer.lock
+composer.lock
+
+#phinx migrations config file
+/db/config/phinx.yml
+
+FIXME.md
+/FIXME.md
